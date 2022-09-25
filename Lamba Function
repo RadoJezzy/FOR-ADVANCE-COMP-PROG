@@ -1,0 +1,5 @@
+number = int(input("Enter the value: "))
+sqr = number * number
+print ("The square of the given value is ", sqr)
+def lamba_cube (number): return sqr * number
+print ("Cube of the given value with the use of lambda: ", lamba_cube(number))
